@@ -13,11 +13,16 @@
 		CF6687A92A89EB9700B8D0A0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6687A82A89EB9700B8D0A0 /* GameScene.swift */; };
 		CF6687AB2A89EB9700B8D0A0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6687AA2A89EB9700B8D0A0 /* GameViewController.swift */; };
 		CF6687AE2A89EB9700B8D0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6687AC2A89EB9700B8D0A0 /* Main.storyboard */; };
-		CF6687B02A89EB9800B8D0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6687AF2A89EB9800B8D0A0 /* Assets.xcassets */; };
 		CF6687B32A89EB9800B8D0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6687B12A89EB9800B8D0A0 /* LaunchScreen.storyboard */; };
 		CF6687BD2A89EB9900B8D0A0 /* Lock_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6687BC2A89EB9900B8D0A0 /* Lock_GameTests.swift */; };
 		CF6687C72A89EB9900B8D0A0 /* Lock_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6687C62A89EB9900B8D0A0 /* Lock_GameUITests.swift */; };
 		CF6687C92A89EB9900B8D0A0 /* Lock_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6687C82A89EB9900B8D0A0 /* Lock_GameUITestsLaunchTests.swift */; };
+		CF6687D62A89EBA900B8D0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6687D52A89EBA900B8D0A0 /* Assets.xcassets */; };
+		CF6687D92A89EC4000B8D0A0 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6687D82A89EC4000B8D0A0 /* Lock.swift */; };
+		CF6687DB2A89EFBC00B8D0A0 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6687DA2A89EFBC00B8D0A0 /* Label.swift */; };
+		CF6687DD2A8B02AE00B8D0A0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6687DC2A8B02AE00B8D0A0 /* Player.swift */; };
+		CF6687DF2A8B084600B8D0A0 /* Collectible.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6687DE2A8B084600B8D0A0 /* Collectible.swift */; };
+		CF6687E12A8B368700B8D0A0 /* Fireworks.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF6687E02A8B368700B8D0A0 /* Fireworks.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +50,19 @@
 		CF6687A82A89EB9700B8D0A0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		CF6687AA2A89EB9700B8D0A0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CF6687AD2A89EB9700B8D0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF6687AF2A89EB9800B8D0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF6687B22A89EB9800B8D0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6687B82A89EB9900B8D0A0 /* Lock GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lock GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6687BC2A89EB9900B8D0A0 /* Lock_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock_GameTests.swift; sourceTree = "<group>"; };
 		CF6687C22A89EB9900B8D0A0 /* Lock GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lock GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6687C62A89EB9900B8D0A0 /* Lock_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock_GameUITests.swift; sourceTree = "<group>"; };
 		CF6687C82A89EB9900B8D0A0 /* Lock_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF6687D52A89EBA900B8D0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Downloads/PopTheLock-master/PopTheLock/Assets.xcassets"; sourceTree = "<group>"; };
+		CF6687D72A89EBB400B8D0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/PopTheLock-master/PopTheLock/Assets.xcassets"; sourceTree = "<group>"; };
+		CF6687D82A89EC4000B8D0A0 /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		CF6687DA2A89EFBC00B8D0A0 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		CF6687DC2A8B02AE00B8D0A0 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CF6687DE2A8B084600B8D0A0 /* Collectible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collectible.swift; sourceTree = "<group>"; };
+		CF6687E02A8B368700B8D0A0 /* Fireworks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Fireworks.sks; path = "../../../Downloads/PopTheLock-master/PopTheLock/Fireworks.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,7 @@
 		CF6687962A89EB9700B8D0A0 = {
 			isa = PBXGroup;
 			children = (
+				CF6687D52A89EBA900B8D0A0 /* Assets.xcassets */,
 				CF6687A12A89EB9700B8D0A0 /* Lock Game */,
 				CF6687BB2A89EB9900B8D0A0 /* Lock GameTests */,
 				CF6687C52A89EB9900B8D0A0 /* Lock GameUITests */,
@@ -102,14 +114,19 @@
 		CF6687A12A89EB9700B8D0A0 /* Lock Game */ = {
 			isa = PBXGroup;
 			children = (
+				CF6687D72A89EBB400B8D0A0 /* Assets.xcassets */,
 				CF6687A22A89EB9700B8D0A0 /* AppDelegate.swift */,
 				CF6687A42A89EB9700B8D0A0 /* GameScene.sks */,
+				CF6687E02A8B368700B8D0A0 /* Fireworks.sks */,
 				CF6687A62A89EB9700B8D0A0 /* Actions.sks */,
 				CF6687A82A89EB9700B8D0A0 /* GameScene.swift */,
 				CF6687AA2A89EB9700B8D0A0 /* GameViewController.swift */,
 				CF6687AC2A89EB9700B8D0A0 /* Main.storyboard */,
-				CF6687AF2A89EB9800B8D0A0 /* Assets.xcassets */,
 				CF6687B12A89EB9800B8D0A0 /* LaunchScreen.storyboard */,
+				CF6687D82A89EC4000B8D0A0 /* Lock.swift */,
+				CF6687DA2A89EFBC00B8D0A0 /* Label.swift */,
+				CF6687DC2A8B02AE00B8D0A0 /* Player.swift */,
+				CF6687DE2A8B084600B8D0A0 /* Collectible.swift */,
 			);
 			path = "Lock Game";
 			sourceTree = "<group>";
@@ -237,8 +254,9 @@
 			files = (
 				CF6687AE2A89EB9700B8D0A0 /* Main.storyboard in Resources */,
 				CF6687A52A89EB9700B8D0A0 /* GameScene.sks in Resources */,
-				CF6687B02A89EB9800B8D0A0 /* Assets.xcassets in Resources */,
 				CF6687B32A89EB9800B8D0A0 /* LaunchScreen.storyboard in Resources */,
+				CF6687D62A89EBA900B8D0A0 /* Assets.xcassets in Resources */,
+				CF6687E12A8B368700B8D0A0 /* Fireworks.sks in Resources */,
 				CF6687A72A89EB9700B8D0A0 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +284,10 @@
 			files = (
 				CF6687A92A89EB9700B8D0A0 /* GameScene.swift in Sources */,
 				CF6687AB2A89EB9700B8D0A0 /* GameViewController.swift in Sources */,
+				CF6687D92A89EC4000B8D0A0 /* Lock.swift in Sources */,
+				CF6687DB2A89EFBC00B8D0A0 /* Label.swift in Sources */,
+				CF6687DF2A8B084600B8D0A0 /* Collectible.swift in Sources */,
+				CF6687DD2A8B02AE00B8D0A0 /* Player.swift in Sources */,
 				CF6687A32A89EB9700B8D0A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
